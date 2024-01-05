@@ -6,7 +6,10 @@ public class Calculator
         return a+b;
     }
 
-    public int Sub(int a, int b) => a - b;
+    public int Sub(int a, int b)
+    {
+        return a-b;
+    }
 
     public int multi(int a, int b)
     {
@@ -16,5 +19,4 @@ public class Calculator
     public int divi(int a, int b)
     {
         return a/b;
-    }
-}
+    }}
